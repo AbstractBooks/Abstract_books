@@ -1,0 +1,62 @@
+.star{
+	color: black;
+	padding: 1%;
+	margin: 4%;
+	text-align: center;
+
+}
+.box{
+		/*width: 250px;
+		height: 300px;*/
+		/*background: orange;*/
+    /*margin: 0px 10px;*/
+    transition: 1s;
+
+	}
+	.box{
+		color: white!important;
+		margin: 15%;
+	}
+	.box:hover{
+		transform: scale(1.1);
+		z-index: 2;
+		color: white!important;
+		
+	}
+	.quote{
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	padding-top: 1%;
+	color: black;
+}
+.quote-author{
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	padding-bottom: 3%
+}
+#books1{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(C:/Users/riaso/Desktop/blog/backgrounds/bg6.jpg); 
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 5px;
+  padding-bottom: 70px;
+}
+.card-img-top{
+	height: 260px;
+	width: 168px;
+}
+.card-deck{
+	width: 200px;
+	height: 300px;
+}
+#books2{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(C:/Users/riaso/Desktop/blog/backgrounds/bg6.jpg); 
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 5px;
+  padding-bottom: 70px;
+}

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'maghribregular';
+    src: url('font/maghrib-mvzpx-webfont.woff2') format('woff2'),
+         url('font/maghrib-mvzpx-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lemon_jelly_personal_useRg';
+    src: url('font3/lemonjellypersonaluse-deqr-webfont.woff2') format('woff2'),
+         url('font3/lemonjellypersonaluse-deqr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#part1{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(backgrounds/bg6.jpg); 
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 5px;
+  padding-bottom: 70px;
+}
+.heading{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  padding: 1% 15%;
+}
+.description{
+  color: #faeee7;
+  font-family: 'Satisfy', cursive;
+  font-size: 25px;
+  margin-top: 0%!important;
+  padding-top: 0px!important;
+  text-align: center;
+
+}
+.metal{
+  font-family: 'Metal Mania', cursive;
+font-size: 30px;
+}
+.news{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.news-img{
+  height: 285px;
+  width: 285px;
+}
+.card-heading{
+  color: black;
+  font-family: 'Metal Mania', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.card-description{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+.news-btn{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.footer{
+  text-align: center;
+  color: #3b6978!important;
+/*  padding: 7% 10%;
+*/
+}
+.social-icon{
+  margin: 20px 10px;
+}

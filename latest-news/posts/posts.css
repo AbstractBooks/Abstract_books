@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'maghribregular';
+    src: url('font/maghrib-mvzpx-webfont.woff2') format('woff2'),
+         url('font/maghrib-mvzpx-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lemon_jelly_personal_useRg';
+    src: url('font3/lemonjellypersonaluse-deqr-webfont.woff2') format('woff2'),
+         url('font3/lemonjellypersonaluse-deqr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#part1{
+    
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(C:/Users/riaso/Desktop/blog/backgrounds/bg9.jpg); 
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 5px;
+  padding-bottom: 70px;
+}
+.book-name{
+    color: black;
+  font-family: 'Metal Mania', cursive;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+.post-text{
+color: black;
+}
+.footer{
+  text-align: center;
+  color: #3b6978!important;
+/*  padding: 7% 10%;
+*/
+}
+.social-icon{
+  margin: 20px 10px;
+}
+.author-name{
+font-family: 'Noto Sans JP', sans-serif;
+padding-bottom: 30px;
+
+}
+.metal{
+  font-family: 'Metal Mania', cursive;
+font-size: 30px;
+}
+@media(min-width: 100px){
+
+  .type1{
+    width: 64rem ;
+  }
+  .type2{
+    width: 64rem;
+  }
+  .type3{
+    width: 64rem;
+  }
+  .banner{
+    height: 300px;
+    width: 700px;
+  }
+}
+@media(max-width: 900px){
+  .type1{
+    width: 31rem ;
+
+  }
+  /*.type3 img{
+height: 250px;
+width: 200px;
+  }*/
+  .type3{
+    width: 31rem !important;
+  }
+  .extra_img{
+    width: 25rem ;
+    height: 25rem ;
+  }
+  .arc_img{
+ height: 120px !important; 
+ width: 420px !important;
+  }
+  .cover{
+height: 150px !important;
+width: 100px !important;
+  }
+  .icon{
+    height: 4rem !important;
+    width: 4rem !important;
+  }
+  .banner{
+    height: 190px !important;
+    width: 420px !important;
+  }
+  .type2{
+    width: 31rem;
+  }
+  .type1 img{
+    width: 25rem ;
+    height: 30rem ;
+  }
+}
+#footer img{
+  width: 2rem;
+  height: 2rem;
+}
